@@ -1,0 +1,25 @@
+{
+  "name": "atention/Queueing",
+  "type": "library",
+  "description": "Atention Beanstalk queueing library",
+  "license": "MIT",
+  "keywords": ["queueing","beanstalk"],
+  "authors": [
+    {
+      "name": "Rutger Kirkels",
+      "email": "rutger@atention.nl",
+      "homepage": "https://www.atention.nl"
+    }
+  ],
+  "require": {
+      "pda/pheanstalk": "^3.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "atention\\Queueing\\": "src"
+    }
+  }
+}
